@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DEBEE70240FAC3400E6EA4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEBEE6F240FAC3400E6EA4B /* AppDelegate.m */; };
+		4DEBEE73240FAC3400E6EA4B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEBEE72240FAC3400E6EA4B /* FirstViewController.m */; };
+		4DEBEE76240FAC3400E6EA4B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEBEE75240FAC3400E6EA4B /* SecondViewController.m */; };
+		4DEBEE79240FAC3400E6EA4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DEBEE77240FAC3400E6EA4B /* Main.storyboard */; };
+		4DEBEE7B240FAC3600E6EA4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEBEE7A240FAC3600E6EA4B /* Assets.xcassets */; };
+		4DEBEE7E240FAC3600E6EA4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DEBEE7C240FAC3600E6EA4B /* LaunchScreen.storyboard */; };
+		4DEBEE81240FAC3600E6EA4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEBEE80240FAC3600E6EA4B /* main.m */; };
+		4DEBEE89240FAF8500E6EA4B /* EduFlutterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEBEE88240FAF8500E6EA4B /* EduFlutterViewController.m */; };
+		93FB80DB620F47469ACCF184 /* libPods-hunHePrg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF9699CCBC75FE28122F9D5 /* libPods-hunHePrg.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3022B612822F3331613E0CDF /* Pods-hunHePrg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hunHePrg.release.xcconfig"; path = "Target Support Files/Pods-hunHePrg/Pods-hunHePrg.release.xcconfig"; sourceTree = "<group>"; };
+		4DEBEE6B240FAC3400E6EA4B /* hunHePrg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hunHePrg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DEBEE6E240FAC3400E6EA4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DEBEE6F240FAC3400E6EA4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DEBEE71240FAC3400E6EA4B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		4DEBEE72240FAC3400E6EA4B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		4DEBEE74240FAC3400E6EA4B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4DEBEE75240FAC3400E6EA4B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4DEBEE78240FAC3400E6EA4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DEBEE7A240FAC3600E6EA4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DEBEE7D240FAC3600E6EA4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DEBEE7F240FAC3600E6EA4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DEBEE80240FAC3600E6EA4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DEBEE87240FAF8500E6EA4B /* EduFlutterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EduFlutterViewController.h; sourceTree = "<group>"; };
+		4DEBEE88240FAF8500E6EA4B /* EduFlutterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EduFlutterViewController.m; sourceTree = "<group>"; };
+		7DF9699CCBC75FE28122F9D5 /* libPods-hunHePrg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hunHePrg.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16FC0BD85916811FB142BFD /* Pods-hunHePrg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hunHePrg.debug.xcconfig"; path = "Target Support Files/Pods-hunHePrg/Pods-hunHePrg.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DEBEE68240FAC3400E6EA4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FB80DB620F47469ACCF184 /* libPods-hunHePrg.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DC4B8AB768A4AEB2D99C66A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DF9699CCBC75FE28122F9D5 /* libPods-hunHePrg.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DEBEE62240FAC3400E6EA4B = {
+			isa = PBXGroup;
+			children = (
+				4DEBEE6D240FAC3400E6EA4B /* hunHePrg */,
+				4DEBEE6C240FAC3400E6EA4B /* Products */,
+				820F923E5DF2236A2DC706B0 /* Pods */,
+				1DC4B8AB768A4AEB2D99C66A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DEBEE6C240FAC3400E6EA4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DEBEE6B240FAC3400E6EA4B /* hunHePrg.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DEBEE6D240FAC3400E6EA4B /* hunHePrg */ = {
+			isa = PBXGroup;
+			children = (
+				4DEBEE6E240FAC3400E6EA4B /* AppDelegate.h */,
+				4DEBEE6F240FAC3400E6EA4B /* AppDelegate.m */,
+				4DEBEE71240FAC3400E6EA4B /* FirstViewController.h */,
+				4DEBEE72240FAC3400E6EA4B /* FirstViewController.m */,
+				4DEBEE74240FAC3400E6EA4B /* SecondViewController.h */,
+				4DEBEE75240FAC3400E6EA4B /* SecondViewController.m */,
+				4DEBEE87240FAF8500E6EA4B /* EduFlutterViewController.h */,
+				4DEBEE88240FAF8500E6EA4B /* EduFlutterViewController.m */,
+				4DEBEE77240FAC3400E6EA4B /* Main.storyboard */,
+				4DEBEE7A240FAC3600E6EA4B /* Assets.xcassets */,
+				4DEBEE7C240FAC3600E6EA4B /* LaunchScreen.storyboard */,
+				4DEBEE7F240FAC3600E6EA4B /* Info.plist */,
+				4DEBEE80240FAC3600E6EA4B /* main.m */,
+			);
+			path = hunHePrg;
+			sourceTree = "<group>";
+		};
+		820F923E5DF2236A2DC706B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E16FC0BD85916811FB142BFD /* Pods-hunHePrg.debug.xcconfig */,
+				3022B612822F3331613E0CDF /* Pods-hunHePrg.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DEBEE6A240FAC3400E6EA4B /* hunHePrg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DEBEE84240FAC3600E6EA4B /* Build configuration list for PBXNativeTarget "hunHePrg" */;
+			buildPhases = (
+				6255DDC7F508D7D5DC71FEC4 /* [CP] Check Pods Manifest.lock */,
+				1D7B76326FF63025B937F043 /* [CP-User] Run Flutter Build Script */,
+				4DEBEE67240FAC3400E6EA4B /* Sources */,
+				4DEBEE68240FAC3400E6EA4B /* Frameworks */,
+				4DEBEE69240FAC3400E6EA4B /* Resources */,
+				77D50CA26DD3BCBA8AE7A5E4 /* [CP] Copy Pods Resources */,
+				5B0E02E7435A74F41A4DF28C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hunHePrg;
+			productName = hunHePrg;
+			productReference = 4DEBEE6B240FAC3400E6EA4B /* hunHePrg.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DEBEE63240FAC3400E6EA4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = MJY;
+				TargetAttributes = {
+					4DEBEE6A240FAC3400E6EA4B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4DEBEE66240FAC3400E6EA4B /* Build configuration list for PBXProject "hunHePrg" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DEBEE62240FAC3400E6EA4B;
+			productRefGroup = 4DEBEE6C240FAC3400E6EA4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DEBEE6A240FAC3400E6EA4B /* hunHePrg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DEBEE69240FAC3400E6EA4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DEBEE7E240FAC3600E6EA4B /* LaunchScreen.storyboard in Resources */,
+				4DEBEE7B240FAC3600E6EA4B /* Assets.xcassets in Resources */,
+				4DEBEE79240FAC3400E6EA4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D7B76326FF63025B937F043 /* [CP-User] Run Flutter Build Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/./my_flutter/.metadata",
+				"${SRCROOT}/my_flutter/.ios/Flutter/App.framework/App",
+				"${SRCROOT}/my_flutter/.ios/Flutter/engine/Flutter.framework/Flutter",
+				"${SRCROOT}/my_flutter/.ios/Flutter/flutter_export_environment.sh",
+			);
+			name = "[CP-User] Run Flutter Build Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/my_flutter/.ios/Flutter/flutter_export_environment.sh\"\n\"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		5B0E02E7435A74F41A4DF28C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hunHePrg/Pods-hunHePrg-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hunHePrg/Pods-hunHePrg-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hunHePrg/Pods-hunHePrg-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6255DDC7F508D7D5DC71FEC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hunHePrg-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77D50CA26DD3BCBA8AE7A5E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hunHePrg/Pods-hunHePrg-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hunHePrg/Pods-hunHePrg-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hunHePrg/Pods-hunHePrg-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DEBEE67240FAC3400E6EA4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DEBEE89240FAF8500E6EA4B /* EduFlutterViewController.m in Sources */,
+				4DEBEE76240FAC3400E6EA4B /* SecondViewController.m in Sources */,
+				4DEBEE70240FAC3400E6EA4B /* AppDelegate.m in Sources */,
+				4DEBEE81240FAC3600E6EA4B /* main.m in Sources */,
+				4DEBEE73240FAC3400E6EA4B /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DEBEE77240FAC3400E6EA4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DEBEE78240FAC3400E6EA4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DEBEE7C240FAC3600E6EA4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DEBEE7D240FAC3600E6EA4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DEBEE82240FAC3600E6EA4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4DEBEE83240FAC3600E6EA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DEBEE85240FAC3600E6EA4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E16FC0BD85916811FB142BFD /* Pods-hunHePrg.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4NQ5L98AG2;
+				INFOPLIST_FILE = hunHePrg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.edu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = common20200923;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DEBEE86240FAC3600E6EA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3022B612822F3331613E0CDF /* Pods-hunHePrg.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4NQ5L98AG2;
+				INFOPLIST_FILE = hunHePrg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.edu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = common20200923;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DEBEE66240FAC3400E6EA4B /* Build configuration list for PBXProject "hunHePrg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DEBEE82240FAC3600E6EA4B /* Debug */,
+				4DEBEE83240FAC3600E6EA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DEBEE84240FAC3600E6EA4B /* Build configuration list for PBXNativeTarget "hunHePrg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DEBEE85240FAC3600E6EA4B /* Debug */,
+				4DEBEE86240FAC3600E6EA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DEBEE63240FAC3400E6EA4B /* Project object */;
+}
